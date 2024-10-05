@@ -129,10 +129,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CupOfTea.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Parsing.cpp" />
+    <ClCompile Include="Pricing.cpp" />
+    <ClCompile Include="Tea.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Constants.h" />
+    <ClInclude Include="Parsing.h" />
+    <ClInclude Include="Pricing.h" />
+    <ClInclude Include="RandomGen.h" />
+    <ClInclude Include="Tea.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

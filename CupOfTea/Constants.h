@@ -15,21 +15,43 @@ inline constexpr uint32_t MILK_UNIT_PRICE{ 90 };
 
 inline constexpr uint32_t CREAM_UNIT_PRICE{ 120 };
 
-inline constexpr std::array<std::string_view, 5> AFFIRMATIVE_RESPONSES
+inline constexpr std::array<std::string_view, 6> AFFIRMATIVE_RESPONSES
 {
 	"yes",
 	"yeah",
+	"yup",
 	"alright",
 	"sure",
 	"y"
 };
 
-inline constexpr std::array<std::string_view, 4> NEGATIVE_RESPONSES
+inline constexpr std::array<std::string_view, 5> NEGATIVE_RESPONSES
 {
 	"no",
 	"nah",
 	"nope",
+	"never",
 	"n"
+};
+
+inline constexpr std::array<std::string_view, 6> INVALID_INTEGER_RESPONSES
+{
+	"Going to need a number there, champ.",
+	"Want to try an integer, maybe?",
+	"I think you might want to try a number here?",
+	"Yeah no, gonna need an integer here. Try that again?",
+	"I don't know what that means. Try again?",
+	"Was I supposed to understand that? A number, please."
+};
+
+inline constexpr std::array<std::string_view, 6> INVALID_TEXT_RESPONSES
+{
+	"What?",
+	"Didn't get that, chief.",
+	"Say again?",
+	"Huh?",
+	"I don't know what that means. Try again?",
+	"It's a yes or no question, mate. Want to try it again?"
 };
 
 enum class ResponseType : uint8_t
