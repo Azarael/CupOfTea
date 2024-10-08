@@ -4,6 +4,7 @@
 #pragma once
 
 #include <random>
+#include <concepts>
 
 class RandomGen
 {
@@ -11,7 +12,6 @@ public:
 	RandomGen() :
 		m_mersenne(m_rand_dev())
 	{
-		m_mersenne.seed(static_cast<uint32_t>(std::time(NULL)));
 	}
 
 	template<std::integral T>

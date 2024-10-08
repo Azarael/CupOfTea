@@ -3,7 +3,7 @@
 #include <array>
 #include <string_view>
 
-inline constexpr uint32_t BASE_PRICE{ 150 };
+inline constexpr uint32_t BASE_PRICE{ 100 };
 
 inline constexpr uint32_t SUGAR_UNIT_PRICE{ 20 };
 inline constexpr uint32_t MAX_SUGAR = { 4 };
