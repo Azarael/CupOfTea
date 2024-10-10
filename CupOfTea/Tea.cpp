@@ -14,7 +14,7 @@ bool
 {
 	ResponseType rsp{ ResponseType::Unknown };
 
-	std::println(cout, "Would you like a cup of tea?");
+	std::println(cout, "Would you like a cup of tea? Yes or no?");
 
 	rsp = parse_text_response();
 
