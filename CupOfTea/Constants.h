@@ -46,11 +46,11 @@ inline constexpr std::array<std::string_view, 6> INVALID_INTEGER_RESPONSES
 
 inline constexpr std::array<std::string_view, 6> INVALID_TEXT_RESPONSES
 {
-	"What?",
-	"Didn't get that, chief.",
-	"Say again?",
-	"Huh?",
-	"I don't know what that means. Try again?",
+	"What? Was that a yes or a no?",
+	"Didn't get that, chief. Yes or no, please.",
+	"Say again? Yes? No?",
+	"Huh? Yes? No?",
+	"I don't know what that means. Yes or no?",
 	"It's a yes or no question, mate. Want to try it again?"
 };
 
