@@ -27,7 +27,7 @@ int
 
 	price += get_sugar_price();
 
-	if (price != BASE_PRICE) // sugar not requested
+	if (price == BASE_PRICE) // sugar not requested
 		price += get_sweetener_price();
 
 	price += get_milk_price();
